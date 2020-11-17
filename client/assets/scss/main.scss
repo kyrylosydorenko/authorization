@@ -1,0 +1,27 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+
+
+html, body, #root {
+  @apply h-full;
+  @apply min-h-full;
+  @apply font-montserrat;
+}
+body {
+  @apply m-0;
+  @apply p-0;
+  @apply box-border;
+  @apply antialiased;
+  @apply text-gray-700;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#root {
+  min-height: -webkit-fill-available;
+}
